@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  padding: 100px 15px;
+  max-width: 767px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-bottom: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.cv {
+  max-width: 100%;
+}
+
+nav {
+  margin-top: 50px;
+}
+nav a {
+  color: #000;
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: 500;
+  transition: color 0.3s;
+  color: rgb(253, 18, 116);
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(228, 9, 100);
+  text-decoration: underline;
+}
